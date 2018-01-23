@@ -1,6 +1,13 @@
+// @flow
+
 import React from 'react';
 
-export const Notification = props => {
+type Props = {
+  message: string,
+  clearNotification: any
+};
+
+export const Notification = (props: Props) => {
   const { message, clearNotification } = props;
   const notificationStyle = {
     backgroundColor: 'lightblue',

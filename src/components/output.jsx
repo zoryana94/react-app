@@ -1,6 +1,14 @@
+// @flow
+
 import React from 'react';
 
-export const Output = props => {
+type Props = {
+  distance: number,
+  startingAddress: string,
+  endingAddress: string
+};
+
+export const Output = (props: Props) => {
   const { distance, startingAddress, endingAddress } = props;
 
   return (

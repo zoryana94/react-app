@@ -7,9 +7,9 @@ import { Notification } from './notification';
 import { Output } from './output';
 
 export const baseURL = 'https://maps.googleapis.com/maps/api/geocode/json';
-export const key = '';
+export const key = 'AIzaSyDBVKo_wqYIv0DdCk7NRQu4tefiDoRBgn0';
 
-export default class DistanceCalculator extends Component {
+export default class DistanceCalculator extends Component<State> {
   constructor(props) {
     super(props);
 
